@@ -1,10 +1,82 @@
 img {
-   max-width: 10%;
-   display: block;
-   margin-right: auto;
-}
-h1 {
-    font-size: 30 px;
-    text-align: center;
+    max-width: 10%;
+    display: block;
+    margin-right: auto;
+ }
+ h1 {
+     font-size: 30 px;
 
-}
+
+ }
+
+
+
+
+ * {box-sizing: border-box}
+ body {font-family: Arial, Helvetica, sans-serif;}
+
+ .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #adadad;
+  }
+
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(129, 129, 129);
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .iconDetails {
+    margin-left:38%;
+   float:left;
+   height:100px;
+   width:100px;
+   }
+
+   .container2 {
+       width:100%;
+       height:auto;
+       padding:1%;
+   }
