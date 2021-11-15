@@ -29,7 +29,7 @@ img {
  .navbar-container{
      display: flex;
    justify-content: space-evenly;
-   line-height: 100%;
+   line-height: 300%;
 
  }
  .navbar-containr div{
