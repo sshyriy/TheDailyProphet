@@ -55,12 +55,20 @@
         <section class='section-container'>
             <div class='story1-image'>
                 <img src="https://images.squarespace-cdn.com/content/v1/51c748abe4b0c275d0aa86bf/1519583119476-G6XMHWGH5X0XVV0M3VDC/news.gif"
-                    alt="images.squarespace-cdn.com" width="550" height="600">
+                    alt="images.squarespace-cdn.com">
             </div>
-            <h3> BIG NEWS! </h3>
-            <article>
+            <div class='story'>
+                <h3> BIG NEWS! </h3>
+                <div id="article"></div>
+                <script> fetch("/docs/articles.json")
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log(data.mainArticle)
+                            document.querySelector("#article").innerText = data.mainArticle
+                        })
+                </script>
+            </div>
 
-            </article>
 
     </main>
     <footer>
