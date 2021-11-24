@@ -1,0 +1,76 @@
+
+.title-container{
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+.image{
+    flex: 1; }
+.story1-image{
+   flex: 1;
+    }
+.title{
+    flex: 5; }
+img {
+    max-width: 85%; }
+
+ h1{
+    font-family: UnifrakturMaguntia;
+    font-size: 30px;
+    text-align: center;
+    line-height: 10%;
+ }
+ h2{
+     font-family: IM Fell English SC;
+     font-size: 90px;
+     font-weight: 100;
+     letter-spacing: 30px;
+     text-align: center;
+     line-height: 1%;
+     
+ }
+ h3{
+    flex: 1;
+    font-size: 140px;
+    text-shadow: 0 2px 5px black;
+    font-family: Poiret One;
+    line-height: 1%;   
+    margin-top: 10px;
+    margin-bottom: 600px;
+   
+    color: white;
+    padding: 50px;
+   
+ }
+ .navbar-container{
+     display: flex;
+   justify-content: space-evenly;
+   line-height: 200%; }
+ .navbar-containr div{
+     width: 30px; }
+ .navbar-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px; }
+
+
+.navbar-container a:hover {
+    color: #B8860B;
+    text-shadow: 0 0 5px black;
+    font-size: 50px;
+}
+.section-container{
+   display: flex;
+}
+
+ .main{
+    font-family:  Henny Penny; }
+ .alumni{
+    font-family: Fontdiner Swanky; }
+ .puzzle{
+    font-family:  Frijole; }
+ .sports{
+    font-family:  Miltonian Tattoo; }
+ .space{
+    color: white; }
+
