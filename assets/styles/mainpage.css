@@ -85,7 +85,7 @@ img {
   
    columns: 2;
   width: 600px;
-  justify-content: right;
+  justify-content: left;
   position: absolute;
   top: 430px;
   right: 100px;
