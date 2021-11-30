@@ -1,0 +1,66 @@
+#articles{
+  
+    columns: 3;
+   width: 600px;
+   justify-content: left;
+   position: inherit;
+   top: 430px;
+   left: 100px;
+   font-family: 'IM Fell English SC';
+   font-size: 14px;
+   text-align: justify;
+
+   
+ }
+
+ h4{
+    text-align: center;
+    font-family: 'UnifrakturMaguntia';
+    font-size: 23px;
+
+}
+
+h5{
+    
+    font-family: 'UnifrakturMaguntia';
+    font-size: 23px;
+    margin-left: 90px;
+
+
+}
+
+.story2-image
+{
+    margin-left: auto;
+    margin-top: 30px;
+
+}
+
+.story3-image
+{
+    margin-left: 87px;
+}
+
+.story
+{
+    margin-left: auto;
+}
+
+#articless{
+  
+    columns: 2;
+   width: 600px;
+   justify-content: left;
+   position: inherit;
+   top: 430px;
+   left: 100px;
+   font-family: 'IM Fell English SC';
+   font-size: 14px;
+   text-align: justify;
+
+   
+ }
+
+ .footer{
+    border: groove;
+}
