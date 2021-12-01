@@ -1,3 +1,5 @@
+// JavaScript file for the movement and shuffling of the first puzzle
+// Map puzzle
 // switch separate tiles in Puzzles
 function switchPuzzle(element1, element2){
   var res = document.getElementById(element1).className;
