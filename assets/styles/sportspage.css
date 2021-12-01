@@ -42,6 +42,7 @@ h5{
 }
 
 .story2-image img{
+    
     max-width: 100%;
     margin-left: 5px;
     display: block;
@@ -49,7 +50,7 @@ h5{
 
 .story3-image img{
     display: block;
-  width: 100%;
+  width: 95%;
   max-width: 100%;
   
  
