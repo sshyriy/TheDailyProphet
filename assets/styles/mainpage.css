@@ -13,6 +13,7 @@
    height: auto;
    flex: 1;
       margin-right: 1px;
+      margin-left: 100px;
        }
 .title{
     flex: 5; }
@@ -40,9 +41,7 @@ img {
     text-shadow: 0 2px 5px black;
     font-family: Poiret One;
     line-height: 1%;   
-    margin-top: 10px;
-    margin-bottom: 600px;
-   
+    margin-top: 10px;   
     color: white;
     padding: 50px;
    
