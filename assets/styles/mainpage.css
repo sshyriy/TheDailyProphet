@@ -17,15 +17,24 @@
        }
 .title{
     flex: 5; }
+h1 span {
+      background:#fff;
+      padding:0 10px;
+   
+   }
 img {
-    max-width: 85%; }
+    max-width: 70%; }
 
- h1{
-    font-family: UnifrakturMaguntia;
-    font-size: 30px;
-    text-align: center;
-    line-height: 10%;
- }
+    h1 {
+      font-family: UnifrakturMaguntia;
+       width: 100%;
+       font-size: 30px;
+       text-align: center;
+       border-bottom: 3px solid DarkGoldenRod;
+       line-height: 0.1em;
+       margin: 10px 0 20px;
+
+    }
 
  h2{
    font-family: IM Fell English SC;
@@ -50,7 +59,7 @@ img {
  .navbar-container{
      display: flex;
    justify-content: space-evenly;
-   line-height: 200%; }
+   line-height: 100%; }
  .navbar-containr div{
      width: 6px; }
  .navbar-container a{
@@ -74,11 +83,7 @@ img {
    columns: 2;
   
 }
-h1 span {
-   background:#fff;
-   padding:0 10px;
 
-}
 
  .main{
     font-family:  Henny Penny; }

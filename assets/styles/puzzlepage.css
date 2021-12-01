@@ -1,15 +1,4 @@
 
-.title-container{
-   display: flex;
-   align-items: flex-start;
-   flex-wrap: wrap;
-
-}
-.image{
-    flex: 1; }
-.title{
-    flex: 5; }
-
 .box{
   width:500px;
   height:70px;
@@ -43,80 +32,10 @@
   background-color: #DCB782;
 }
 
-img {
-    max-width: 70%; }
-
-    h1 {
-      font-family: cursive;
-       width: 100%;
-       font-size: 20px;
-       text-align: center;
-       border-bottom: 3px solid DarkGoldenRod;
-       line-height: 0.1em;
-       margin: 10px 0 20px;
-
-    }
-
-    h1 span {
-        background:#fff;
-        padding:0 10px;
-
-    }
- h2{
-     font-family: IM Fell English SC;
-     font-size: 80px;
-     color: black;
-     font-weight: 100;
-     letter-spacing: 30px;
-     text-align: center;
-     line-height: 1%;
-
- }
- .navbar-container{
-   display: flex;
-   justify-content: space-evenly;
-   line-height: 200%;
- }
-
- .navbar-containr div{
-     width: 6px;
- }
-
- .navbar-container a{
-    text-decoration: none;
-    color: black;
-    font-size: 37px;
- }
 
 
-.navbar-container b:hover {
-    color: #C70303;
-    text-shadow: 0 0 5px black;
-    font-size: 40px;
-}
-.navbar-container b{
-   text-decoration: none;
-   color: black;
-   font-size: 37px;
-}
 
 
-.navbar-container a:hover {
-   color: #B8860B;
-   text-shadow: 0 0 5px black;
-   font-size: 40px;
-}
-
- .main{
-    font-family:  Henny Penny; }
- .alumni{
-    font-family: Miltonian Tattoo;
-   }
- .puzzle{
-    font-family:  Frijole;
-    color: green;}
- .sports{
-    font-family:  Miltonian Tattoo; }
  .space{
     color: white; }
 .winners{
