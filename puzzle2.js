@@ -1,3 +1,5 @@
+// JavaScript file for the movement and shuffling of the second puzzle
+// Phoenix puzzle
 // switch separate tiles in Puzzles
 function switchPuzzle2(e1, e2){
   var res = document.getElementById(e1).className;
