@@ -15,16 +15,22 @@
 
  h4{
     text-align: center;
-    font-family: 'UnifrakturMaguntia';
-    font-size: 23px;
+    font-family:  Henny Penny; 
+    font-size: 40px;
+    text-shadow: 0 2px 5px black;
+    line-height: 1%;
 
 }
 
 h5{
     
-    font-family: 'UnifrakturMaguntia';
-    font-size: 23px;
+    font-family:  Henny Penny; 
+    font-size: 40px;
+    text-shadow: 0 5px 5px black;
+   line-height: 1%;
     margin-left: 90px;
+    
+   
 
 
 }
