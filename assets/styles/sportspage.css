@@ -41,17 +41,20 @@ h5{
 
 }
 
-.story2-image
-{
-    margin-left: auto;
-    margin-top: 30px;
-
+.story2-image img{
+    max-width: 100%;
+    margin-left: 5px;
+    display: block;
 }
 
-.story3-image
-{
-    margin-left: 87px;
+.story3-image img{
+    display: block;
+  width: 100%;
+  max-width: 100%;
+  
+ 
 }
+
 
 .story
 {
@@ -88,6 +91,3 @@ hr {
    
  }
 
- .footer{
-    border: groove;
-}
