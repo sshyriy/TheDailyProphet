@@ -16,7 +16,7 @@
  h4{
     text-align: center;
     font-family:  Henny Penny; 
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 0 2px 5px black;
     line-height: 1%;
 
@@ -25,10 +25,10 @@
 h5{
     
     font-family:  Henny Penny; 
-    font-size: 40px;
+    font-size: 35px;
     text-shadow: 0 5px 5px black;
    line-height: 1%;
-    margin-left: 90px;
+    margin-left: 135px;
     
    
 
@@ -51,6 +51,21 @@ h5{
 {
     margin-left: auto;
 }
+
+.story3{
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
 
 #articless{
   
