@@ -65,12 +65,11 @@ img {
  h2{
      font-family: IM Fell English SC;
      font-size: 80px;
-     altcolor: color:#fff333
+     color: black;
      font-weight: 100;
      letter-spacing: 30px;
      text-align: center;
      line-height: 1%;
-
 
  }
  .navbar-container{

@@ -26,14 +26,15 @@ img {
     text-align: center;
     line-height: 10%;
  }
+
  h2{
-     font-family: IM Fell English SC;
-     font-size: 90px;
-     font-weight: 100;
-     letter-spacing: 30px;
-     text-align: center;
-     line-height: 1%;
-     
+   font-family: IM Fell English SC;
+   font-size: 80px;
+   color: black;
+   font-weight: 100;
+   letter-spacing: 30px;
+   text-align: center;
+   line-height: 1%;
  }
  h3{
     flex: 1;
@@ -51,11 +52,11 @@ img {
    justify-content: space-evenly;
    line-height: 200%; }
  .navbar-containr div{
-     width: 30px; }
+     width: 6px; }
  .navbar-container a{
     text-decoration: none;
     color: black;
-    font-size: 40px; }
+    font-size: 37px; }
 
 
 .navbar-container a:hover {
@@ -63,10 +64,20 @@ img {
     text-shadow: 0 0 5px black;
     font-size: 50px;
 }
+.navbar-container b:hover {
+   color: #C70303;
+   text-shadow: 0 0 5px black;
+   font-size: 40px;
+}
 .section-container{
    display: flex;
    columns: 2;
   
+}
+h1 span {
+   background:#fff;
+   padding:0 10px;
+
 }
 
  .main{
