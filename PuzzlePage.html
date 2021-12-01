@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Harry Potter Newspaper </title>
+    <script src="puzzle.js"></script>
+    <script src="puzzle2.js"></script>
+    <link rel="stylesheet" href="assets/styles/puzzlepage.css">
+    <link rel="stylesheet" href="assets/styles/PuzzleImages.css">
+    <link rel="stylesheet" href="assets/styles/PuzzleImages2.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=UnifrakturMaguntia" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=IM+Fell+English+SC&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Frijole&family=Henny+Penny&family=IM+Fell+English+SC&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=Rye&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class='title-container'>
+    <div class='image'>
+      <a href="MainPage.html">
+        <img src="assets/img/DailyProphetInsignia.png" title="Home Page" alt="logo">
+      </a>
+    </div>
+    <div class='title'>
+        <h1><span>The</span></h1>
+        <h2>
+          <span><span style ='color: DarkGoldenRod'>D</span>aily</span>
+          <span><span style ='color: DarkGoldenRod'>P</span>rophet</span>
+          </h2>
+        <hr>
+    </div>
+</header>
+<nav class='navbar-container'>
+    <div class='sports' style="display:inline-block; width: 100px;"> <a href="SportsPage.html">Sports</a> </div>
+    <div class='puzzle'> <b href="PuzzlePage.html">Puzzles</b> </div>
+    <div class='alumni'> <a href="AlumniPage.html">Hogwarts Alumni</a> </div>
+</nav>
+<hr>
+
+<div class = "float container">
+  <div class = "float-child">
+<div class = "box black">
+  <div class ="text-style">
+  Unshuffle Marauder's Map to receive an exclusive and mysterious prize.
+<br> Play to join the winners raffle!
+</div>
+</div>
+<br>
+<main>
+
+  <div id = "table" style="display: table; border:1px solid black; align:center;">
+  <div id="r1" style="display: table-row;">
+     <div id="element11" class="t1" onClick="clickAction(1,1);"></div>
+     <div id="element12" class="t2" onClick="clickAction(1,2);"></div>
+     <div id="element13" class="t3" onClick="clickAction(1,3);"></div>
+  </div>
+  <div id="r2" style="display: table-row;">
+     <div id="element21" class="t4" onClick="clickAction(2,1);"></div>
+     <div id="element22" class="t5" onClick="clickAction(2,2);"></div>
+     <div id="element23" class="t6" onClick="clickAction(2,3);"></div>
+  </div>
+  <div id="r3" style="display: table-row;">
+     <div id="element31" class="t7" onClick="clickAction(3,1);"></div>
+     <div id="element32" class="t8" onClick="clickAction(3,2);"></div>
+     <div id="element33" class="t9" onClick="clickAction(3,3);"></div>
+  </div>
+</div>
+ <button class="button" onClick="randomize();">Suffle and play</button>
+</div>
+ <div class = "float-child2">
+   <div class = "box black">
+     <div class ="text-style">
+     Want to see Phoenix Fawkes with your own eyes? Unshuffle to meet him!
+   <br> Play to join the winners raffle!
+   </div>
+   </div>
+   <br>
+  <div id = "table2" style="display: table; border:1px solid black;">
+  <div id="rs1" style="display: table-row;">
+     <div id="e11" class="s1" onClick="clickAction2(1,1);"></div>
+     <div id="e12" class="s2" onClick="clickAction2(1,2);"></div>
+     <div id="e13" class="s3" onClick="clickAction2(1,3);"></div>
+  </div>
+  <div id="rs2" style="display: table-row;">
+     <div id="e21" class="s4" onClick="clickAction2(2,1);"></div>
+     <div id="e22" class="s5" onClick="clickAction2(2,2);"></div>
+     <div id="e23" class="s6" onClick="clickAction2(2,3);"></div>
+  </div>
+  <div id="rs3" style="display: table-row;">
+     <div id="e31" class="s7" onClick="clickAction2(3,1);"></div>
+     <div id="e32" class="s8" onClick="clickAction2(3,2);"></div>
+     <div id="e33" class="s9" onClick="clickAction2(3,3);"></div>
+  </div>
+</div>
+<button class="button" onClick="randomize2();">Suffle and play</button>
+</div>
+</div>
+
+<div class="winners" style="padding:4em;">
+  <span class ="hl3">Winners of last week's raffle!</span>
+  <table class="table">
+    <tr class= "tr">
+      <th class= "th">Name</th>
+      <th class= "th">House</th>
+      <th class= "th">Points</th>
+    </tr>
+    <tr class= "tr">
+      <td class= "td">Ginny Weasley</td>
+      <td class= "td">Gryffindor</td>
+      <td class= "td">+ 10</td>
+    </tr>
+    <tr class= "tr">
+      <td class= "td">Dean Thomas</td>
+      <td class= "td">Gryffindor</td>
+      <td class= "td">+ 10</td>
+    </tr>
+    <tr class= "tr">
+      <td class= "td">Draco Malfoy</td>
+      <td class= "td">Slytherin</td>
+      <td class= "td">+ 7</td>
+    </tr>
+  </table>
+</div>
+</main>
+</body>
+
+<br>
+<h1><span></span></h1>
+<div class="footer">The Daily Prophet © 2021, All Rights Reserved. Brought to you by Sofiya Shyriy, Murtaza
+        Amir, Ayat Diab, and Chris Flores</div>
+</html>
