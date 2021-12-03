@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title> Harry Potter Newspaper </title>
-   
+   <!-- CSS file for this html page -->
     <link rel="stylesheet" href="assets/styles/mainpage.css">
+    <!-- many fonts imported from google -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=UnifrakturMaguntia" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,12 +34,15 @@
 </head>
 
 <body>
+     <!-- Header -->
     <header class='title-container'>
         <div class='image'>
+            <!-- Logo -->
           <a href="MainPage.html">
             <img src="assets/img/DailyProphetInsignia.png" title="Home Page" alt="logo">
           </a>
         </div>
+        <!-- Title -->
         <div class='title'>
             <h1> <span>The</span> </h1>
             <h2>
@@ -49,6 +53,7 @@
         </div>
 
     </header>
+    <!-- Navigation bar -->
     <nav class='navbar-container'>
         <div class='sports' style="display:inline-block; width: 100px;"> <a href="sports.html">Sports</a> </div>
         <div class='puzzle'> <a href="PuzzlePage.html">Puzzles</a> </div>
@@ -58,12 +63,14 @@
     <hr>
     <main>
         <section class='section-container'>
+            <!-- Main story image from the web -->
             <div class='story1-image'>
                 <img src="https://images.squarespace-cdn.com/content/v1/51c748abe4b0c275d0aa86bf/1519583119476-G6XMHWGH5X0XVV0M3VDC/news.gif"
                     alt="images.squarespace-cdn.com">
             </div>
             <div class='story'>
                 <h3> BIG NEWS! </h3>
+                <!-- Article inserted from the json file -->
                 <div id="article"></div>
                 <script> fetch("/docs/articles.json")
                         .then(response => response.json())
@@ -79,6 +86,7 @@
      
 
     </main>
+    <!-- Footer -->
     <footer>
         <p >The Daily Prophet © 2021, All Rights Reserved. Brought to you by
             Sofiya Shyriy, Murtaza
