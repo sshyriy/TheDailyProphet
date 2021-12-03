@@ -1,44 +1,28 @@
 #articles{
-  
-    columns: 3;
+   columns: 3;
    width: 600px;
    justify-content: left;
    position: inherit;
    top: 430px;
-   left: 100px;
+   margin-right: 1rem;
    font-family: 'IM Fell English SC';
-   font-size: 14px;
+   font-size: 1.1vw;
    text-align: justify;
-
-   
- }
- h1{
-    font-family: UnifrakturMaguntia;
-    font-size: 30px;
-    text-align: center;
-    line-height: 10%;
- }
-
- h4{
+}
+h4{
     text-align: center;
     font-family:  Henny Penny; 
-    font-size: 35px;
+    font-size: 3vw;
     text-shadow: 0 2px 5px black;
     line-height: 1%;
-
 }
-
 h5{
-    
     font-family:  Henny Penny; 
-    font-size: 35px;
+    font-size: 3vw;
     text-shadow: 0 5px 5px black;
-   line-height: 1%;
-    margin-left: 135px;
-    
-   
-
-
+    line-height: 1%;
+    margin-left: 8rem;
+    margin-top: 5rem;
 }
 
 .story2-image img{
@@ -46,17 +30,14 @@ h5{
     max-width: 100%;
     margin-left: 5px;
     display: block;
+    margin-top: 1rem;
 }
 
 .story3-image img{
     display: block;
-  width: 95%;
-  max-width: 100%;
   
- 
-}
-
-
+  max-width: 100%;
+  }
 .story
 {
     margin-left: auto;
@@ -78,17 +59,14 @@ hr {
   }
 
 #articless{
-  
-    columns: 2;
-   width: 600px;
-   justify-content: left;
-   position: inherit;
+   columns: 2;
+   width: 550px;
+   margin-left: 3rem;
+   margin-right:.1rem;
    top: 430px;
-   left: 100px;
    font-family: 'IM Fell English SC';
-   font-size: 14px;
+   font-size: 1.1vw;
    text-align: justify;
-
    
  }
 
