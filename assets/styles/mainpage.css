@@ -111,8 +111,8 @@ img {
 
 footer{
    margin-top: 2rem;
-   position: absolute; 
-   top: 910px; 
-   left: 300px;
+   margin: auto;
    font-size: 1vw;
+   width: 60%;
+   padding: 10px;
 }
