@@ -23,7 +23,7 @@
 
 .td, .th {
   border: 4px solid #dddd;
-  font-family: cursive;
+  font-family: Courier New;
   text-align: left;
   padding: 8px;
 }
@@ -31,10 +31,6 @@
 .tr:nth-child(even) {
   background-color: #DCB782;
 }
-
-
-
-
 
  .space{
     color: white; }
