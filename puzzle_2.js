@@ -6,7 +6,7 @@ function switchPuzzle2(e1, e2){
   document.getElementById(e1).className = document.getElementById(e2).className;
   document.getElementById(e2).className = res;
 }
-
+// Randomize the tiles in puzzle
 function randomize2(){
   for(var r = 1; r <= 3; r++){
     for(var c = 1; c <= 3; c++){
@@ -16,7 +16,7 @@ function randomize2(){
     }
   }
 }
-
+// If a tile is pressed the specific peice needs to be moved - functions
 function clickAction2(r,c){
   var element = document.getElementById("e" + r + c);
   //need to track the location of the empty space, that allows
