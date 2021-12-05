@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title> Harry Potter Newspaper </title>
+        <link rel="stylesheet" href="assets/styles/mainpage.css">
+        <link rel="stylesheet" href="assets/styles/alumnipage.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=UnifrakturMaguntia" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=IM+Fell+English+SC&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Frijole&family=Henny+Penny&family=IM+Fell+English+SC&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Frijole&family=Henny+Penny&family=Miltonian+Tattoo&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&family=Rye&display=swap" rel="stylesheet">
+    
+    
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Frijole&family=Henny+Penny&family=IM+Fell+English+SC&family=Major+Mono+Display&family=Miltonian+Tattoo&family=Poiret+One&family=Rampart+One&family=Rye&display=swap"
+            rel="stylesheet">
+    </head>
+
+<body>
+
+    <!-- Content for music playin in background, so far its a manual play feature -->
+<!--    <audio controls>
+  <source src="assets/Music/HP(Piano Version).wav" type="audio/mp3" />
+</audio>
+-->
+
+<header class='title-container'>
+    <div class='image'>
+      <a href="MainPage.html">
+        <img src="assets/img/DailyProphetInsignia.png" title="Home Page" alt="logo">
+      </a>
+    </div>
+    <div class='title'>
+        <h1><span>The</span></h1>
+        <h2>
+            <span><span style ='color: DarkGoldenRod'>D</span>aily</span>
+            <span><span style ='color: DarkGoldenRod'>P</span>rophet</span>
+            </h2>
+        <hr>
+    </div>
+
+</header>
+<nav class='navbar-container'>
+    <div class='sports' style="display:inline-block; width: 100px;"> <a href="sports.html">Sports</a> </div>
+    <div class='puzzle'> <a href="PuzzlePage.html">Puzzles</a> </div>
+    <div class='alumni'> <a href="AlumniPage.html">Hogwarts Alumni</a> </div>
+</nav>
+<hr>
+
+<!--  Content for first initial introduction of page -->
+<main>
+	<section class='section-container'>
+
+        <div class = 'Introduction'>
+            <h6> Meet the Hogwarts Alumni</h6>
+            <div id="Summary"></div>
+            <script> fetch("/docs/articles.json")
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log(data.Alumni)
+                            document.querySelector("#Summary").innerText = data.Alumni
+                        })
+            </script>
+	    </div>
+            <section class = ' section-container'>
+		        <div class='AlumniInt-image'>
+                <img src="assets/img/AlumniPage- Imgur.gif" alt="https://imgur.com/OP1Jhbo">
+        </div>
+</main>
+ 
+<!--  Content of 1st Alumni -->
+<main>
+	<section class = ' section-container'>
+        <div class = 'Alumni1'>
+		<h7> Albus Dumbledore(Headmaster)</h7>
+		<div id="Introduction1"></div>
+		<script> fetch("/docs/articles.json")
+					.then(response => response.json())
+					.then(data => {
+						console.log(data.Alumni1Int)
+						document.querySelector("#Introduction1").innerText = data.Alumni1Int
+					})
+		</script>
+		</div>
+
+</main>
+
+<!-- Content of 2nd Alumni      -->
+
+<main>
+    <section class = 'section-container'>
+    <div class = 'Alumni2'>
+		<h8> Pomona Sprout(Herbology)</h8>
+		<div id="Introduction2"></div>
+		<script> fetch("/docs/articles.json")
+					.then(response => response.json())
+					.then(data => {
+						console.log(data.Alumni2Int)
+						document.querySelector("#Introduction2").innerText = data.Alumni2Int
+					})
+		</script>
+		</div>
+</main>
+
+<!-- Content of 3rd Alumni-->
+<main>
+    <section class = ' section-container'>
+        <div class = 'Alumni3'>
+		<h9> Serverus Snape (Potion Master)</h7>
+		<div id="Introduction3"></div>
+		<script> fetch("/docs/articles.json")
+					.then(response => response.json())
+					.then(data => {
+						console.log(data.Alumni3Int)
+						document.querySelector("#Introduction3").innerText = data.Alumni3Int
+					})
+		</script>
+		</div>
+</main>
+
+<main>
+    <section class = 'section-container'>
+        <div class='Closing'>
+        <h10> To The Alum</h10>
+        <div id="Summary2"></div>
+        <script> fetch("/docs/articles.json")
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.AlumniCl)
+                document.querySelector("#Summary2").innerText = data.AlumniCl
+            })
+        </script>
+        </div>
+    
+    </div>
+    <section class = ' section-container'>
+        <div class='AlumniCl-image'>
+        <img src="assets/img/Hogwarts.gif" alt="https://imgur.com/8LFUyL0">
+    </div>
+
+</main>
+        <footer>
+           <p style="text-align: center; border: groove;"> The Daily Prophet © 2021, All Rights Reserved. Brought to you by Sofiya Shyriy, Murtaza        
+           A Mir, Ayat Diab, and Chris Flores</a></p>
+           
+           
+        </footer>
+     
+</body>
+</html>
