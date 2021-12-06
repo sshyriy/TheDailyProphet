@@ -9,10 +9,11 @@
 
 }
 .text-style{
-  font-family: Courier New;
+  resize: none;
+  font-family: monospace;
   color: white;
    width: 100%;
-   font-size: 20px;
+   font-size: 17px;
    text-align: center;
 }
 .table {
@@ -41,7 +42,7 @@
 }
 .hl3{
     font-weight: 400;
-    font-style: italic;
+    font-style: fantasy;
     font-size: 36px;
     box-sizing: border-box;
     padding: 10px 0 10px 0;
