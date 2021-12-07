@@ -1,0 +1,117 @@
+.AlumniCl-image img{
+    display: block;
+    max-width: 42%;
+    margin-top: -559px;
+    margin-left: 34rem;
+}
+/*        
+.AlumniInt-image img{
+    display: inherit;
+    max-width: 42%;
+    margin-left: 2rem;
+    margin-top: 140px;
+}
+*/
+
+/*                                                  */
+
+.Introduction{
+    margin-left: 4rem;
+    margin-top: -14px;
+}
+h6{
+    font-family: Fontdiner Swanky;
+    font-size: 1.8vw;
+    text-shadow: 0 3px 8px black;
+}
+#Summary{
+    margin-top: -40px;
+    width: 500px;
+    font-family: 'IM Fell English SC';
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+/*                                         */
+
+.Alumni1{
+    margin-left: 8rem;
+    margin-top: 20px;
+}
+h7{
+    font-family:Frijole;
+    font-size: 1vw;
+    text-decoration: underline;
+}
+#Introduction1{
+    columns: 2;
+    width:375px;
+    font-family: 'IM Fell English SC';
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+/*                                      */
+
+.Alumni2{
+    margin-left: 8rem;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+h8{
+    font-family: Frijole;
+    font-size: 1vw;
+    text-decoration: underline;
+}
+#Introduction2{
+    columns:2;
+    width: 350px;
+    font-family: 'IM Fell English SC';
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+/*                                  */
+
+.Alumni3{
+    margin-left: 33rem;
+    margin-top: -275px;
+}
+h9{
+    font-family: Frijole;
+    font-size: 1vw;
+    text-decoration: underline;
+}
+#Introduction3{
+    columns: 2;
+    width: 375px;
+    font-family: 'IM Fell English SC';
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+/*                                          */
+
+.Closing{
+    margin-left: -17rem;
+    margin-top: -673px;
+}
+h10{
+    margin-left: -1rem;
+    font-family: Fontdiner Swanky;
+    font-size: 1.8vw;
+    text-shadow: 0 3px 5px black;
+}
+
+#Summary2{
+    margin-top: 13px;
+    margin-right: 5rem;
+    columns: 1;
+    width: 152px;
+    font-family: 'IM Fell English SC';
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+/*                                  */
+
